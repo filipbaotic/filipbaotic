@@ -267,7 +267,7 @@ h6 {
 #about {
     position: relative;
     width: 100vw;
-    min-height: 100%;
+    min-height: 100vh;
     background: #DCE2E7;
     overflow: hidden;
 }
@@ -749,10 +749,10 @@ h6 {
         background-size: 1000px auto;
     }
     #about .who {
-        padding: 144px 0 0 0;
+        padding: 124px 0 640px 0;
     }
     .particles {
-        top: 124px;
+        top: 104px;
     }
     #photo {
         background-size: 1000px auto;
