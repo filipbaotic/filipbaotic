@@ -765,11 +765,10 @@ h6 {
 }
 
 @media screen and (max-width:600px) {
-    #photo .article {
-        height: auto;
-    }
+    #photo .article,
     #photo .article .cover {
         height: 120vw;
+        overflow: hidden;
     }
     #photo .article .text {
         position: absolute;
