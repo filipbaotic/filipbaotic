@@ -822,6 +822,14 @@ h6 {
     #photo {
         background-size: 700px auto;
     }
+    .apple-x{
+        position: absolute;
+        background-color: #F6F7F9;
+        width: 100vw;
+        height: 50px;
+        top: -50px;
+        left: 0px;
+    }
 }
 
 @media screen and (max-width:380px) {
