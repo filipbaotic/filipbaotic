@@ -7,6 +7,19 @@ $.fn.isInViewport = function() {
 };
 
 $(document).ready(function() {
+    var number = 1 + Math.floor(Math.random() * 4);
+    if (number == 1) {
+        $("#about").addClass("v1");
+    }
+    if (number == 2) {
+        $("#about").addClass("v2");
+    }
+    if (number == 3) {
+        $("#about").addClass("v3");
+    }
+    if (number == 4) {
+        $("#about").addClass("v4");
+    };
     $(".toggle").click(function(e) {
         e.preventDefault();
         $(".toggle").toggleClass("active");
