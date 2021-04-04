@@ -268,8 +268,23 @@ h6 {
     position: relative;
     width: 100vw;
     min-height: 100vh;
-    background: #DCE2E7;
     overflow: hidden;
+}
+
+.v1 {
+    background: #DCE2E7;
+}
+
+.v2 {
+    background: #b6e0ef;
+}
+
+.v3 {
+    background: #dde0e5;
+}
+
+.v4 {
+    background: #d9d7ea;
 }
 
 .topmover {
@@ -279,6 +294,22 @@ h6 {
     z-index: 3;
 }
 
+.v1:before {
+    background-image: url(assets/index/1-filip.jpg);
+}
+
+.v2:before {
+    background-image: url(assets/index/2-filip.jpg);
+}
+
+.v3:before {
+    background-image: url(assets/index/3-filip.jpg);
+}
+
+.v4:before {
+    background-image: url(assets/index/4-filip.jpg);
+}
+
 #about:before {
     content: '';
     position: absolute;
@@ -286,7 +317,6 @@ h6 {
     height: 100%;
     bottom: 0px;
     left: 0px;
-    background-image: url(assets/index/1-filip.png);
     background-repeat: no-repeat;
     background-size: 700px auto;
     background-position: center bottom;
@@ -822,7 +852,7 @@ h6 {
     #photo {
         background-size: 700px auto;
     }
-    .apple-x{
+    .apple-x {
         position: absolute;
         background-color: #F6F7F9;
         width: 100vw;
